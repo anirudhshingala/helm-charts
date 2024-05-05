@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  samplefile: {{ .Values.configmap.message }}
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: sample-config
