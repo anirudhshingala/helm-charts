@@ -2,7 +2,7 @@ import http.server
 import socketserver
 
 PORT = 5000
-FILE_PATH = '/tmp/samplefile'
+FILE_PATH = '/sample/samplefile'
 
 class FileContentHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
