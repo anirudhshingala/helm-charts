@@ -3,12 +3,23 @@ entries:
   python-filereader:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-05-05T17:21:50.115341+05:30"
+    created: "2024-05-05T18:18:25.002217+05:30"
     description: A Helm chart for Kubernetes
-    digest: 395ffb17e4e99ea1401e6c99fd3b1740a1554d277079ca40b1977cd87cb650c6
+    digest: 08e7d98b5f440e6bc95cfb6122a7f95fe38f71e0f2bb5fa4113dd3350350e009
     name: python-filereader
     type: application
     urls:
     - https://anirudhshingala.github.io/helm-charts/python-filereader-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-05T17:21:50.112011+05:30"
+  test-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-05-05T18:18:25.004098+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 2e3429c5d6b722cb22f6f9aab067bb8f0612b3cf56fbbcdaf0dc9d53f2953bc4
+    name: test-chart
+    type: application
+    urls:
+    - https://anirudhshingala.github.io/helm-charts/test-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-05-05T18:18:24.999368+05:30"
